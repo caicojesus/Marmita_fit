@@ -1,0 +1,422 @@
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldeia Geek - Produtos</title>
+    <link rel="stylesheet" href="../CSS/indexCss.css">
+    <link rel="stylesheet" href="../CSS/acessibilidade.css" />
+</head>
+
+<body>
+
+    <!-- Botão Flutuante de Acessibilidade -->
+    <div id="acessibilidade-widget">
+        <button id="acessibilidade-btn">A</button>
+
+        <div id="acessibilidade-menu">
+            <button id="btnAumentar">A+</button>
+            <button id="btnDiminuir">A-</button>
+            <button id="btnResetar">Resetar</button>
+        </div>
+    </div>
+
+    <header id="top-nav">
+        <div id="AldeiaGeek">
+            <a href="../index.html">
+                <img src="../imagens/logo site.png" alt="Logo Aldeia Geek">
+                <span>AldeiaGeek</span>
+            </a>
+        </div>
+
+        <nav class="holographic-container">
+            <div class="holographic-card"><a href="../html/novidades.html">Novidades</a></div>
+            <div class="holographic-card"><a href="../html/vestuario.html">Vestuário</a></div>
+            <div class="holographic-card"><a href="../html/colecionaveis.html">Colecionáveis</a></div>
+            <div class="holographic-card"><a href="../html/Acessorios.html">Acessórios</a></div>
+        </nav>
+
+        <form class="Barra-meio">
+            <input type="search" class="campo-pesquisa" placeholder="Pesquisar na Aldeia">
+            <button type="submit" class="botao-pesquisa">🔍</button>
+        </form>
+
+        <div id="nav-right">
+            <button id="darkModeBtn">◑</button>
+
+
+
+
+            <button id="login-btn">Login ou Registrar-se</button>
+            <ul id="logout-menu">
+                <li id="logout-option">Sair</li>
+            </ul>
+        </div>
+        <button id="menu-hamburger">☰</button>
+
+    </header>
+
+    <div id="popup-overlay">
+        <div id="popup-box">
+            <span id="popup-close">X</span>
+            <h3>Bem-vindo!</h3>
+            <button onclick="mostrarLogin()">Login</button>
+            <button onclick="registrar()">Registrar-se</button>
+
+            <div id="login-form">
+                <h4>Entrar</h4>
+                <form id="formLogin">
+                    <label for="usuario">Login:</label>
+                    <input type="text" id="usuario" name="usuario" required>
+
+                    <label for="senhaLogin">Senha:</label>
+                    <input type="password" id="senhaLogin" name="senhaLogin" required>
+
+                    <div id="erroLogin"></div>
+
+                    <button type="submit">Entrar</button>
+                    <button type="reset">Limpar</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+
+    <script src="../JS/indexJs.js"></script>
+    <script src="../JS/login.js"></script>
+    <script src="../JS/botaohamburger.js"></script>
+    <script src="../JS/acessibilidadefonte.js"></script>
+
+    <main class="produto-container">
+        <!-- Galeria de ../imagens -->
+        <section class="galeria">
+            <img id="img-principal" src="../imagens/cncdeath1.jpg" alt="Produto Principal">
+
+            <div class="miniaturas">
+                <img src="../imagens/cncdeath1.jpg" alt="Miniatura 1" onclick="trocarImagem(this)">
+                <img src="../imagens/cncdeath2.jpg" alt="Miniatura 2" onclick="trocarImagem(this)">
+            </div>
+        </section>
+
+        <!-- Detalhes do produto -->
+        <section class="detalhes">
+            <h1>Caneca Death Note</h1>
+            <p class="preco">R$ 49,99</p>
+            <p class="descricao">
+                Caneca inspirada em Death Note, trazendo uma estampa marcante que representa o universo sombrio do
+                anime. Feita para fãs que querem estilo até na hora do café. </p>
+            <a href="../Html/erro.html" button class="btn-comprar">🛒 Comprar agora</a>
+            </div>
+        </section>
+    </main>
+
+
+
+    <h1> Características </h1> <br>
+    <h5> ✅ Material: cerâmica premium
+        <br>✅ Estampa de alta definição com cores vivas
+        <br> ✅Resistente a calor, micro-ondas e lava-louças
+        <br> ✅Capacidade: 325ml
+        <br> ✅Perfeita para fãs
+    </h5> <br>
+    </H2> <br>
+
+    <H3>
+        Avaliações dos clientes: ⭐⭐⭐⭐ (4.8/5) com base em 250 avaliações
+    </H3> <br>
+
+
+
+
+
+    <div id="popup-overlay">
+        <div id="popup-box">
+            <span id="popup-close">X</span>
+            <h3>Bem-vindo!</h3>
+            <button onclick="mostrarLogin()">Login</button>
+            <button onclick="registrar()">Registrar-se</button>
+
+            <div id="login-form">
+                <h4>Entrar</h4>
+                <form id="formLogin">
+                    <label for="usuario">Login:</label>
+                    <input type="text" id="usuario" name="usuario" required>
+
+                    <label for="senhaLogin">Senha:</label>
+                    <input type="password" id="senhaLogin" name="senhaLogin" required>
+
+                    <div id="erroLogin"></div>
+
+                    <button type="submit">Entrar</button>
+                    <button type="reset">Limpar</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/indexJs.js"></script>
+    <script src="JS/login.js"></script>
+
+
+
+    <!--RODAPÉ DA PAGINA-->
+
+    <section class="Assinar ">
+        <h4> Assinar Novidades </h4>
+        <input class="barra-rodape" type="text" placeholder="Digite seu Email">
+        <button class="click-aqui"> ASSINAR </button>
+    </section>
+
+    <h1 class="rodape-titulo">Aldeia Geek</h1>
+
+
+    <a href="https://www.facebook.com/"> <img src="../imagens/RD1 png facebook.png" class="imginstagram"></a>
+    <a href="https://www.instagram.com/"><img src="../imagens/RD2 insta.png" class="imginstagram"></a>
+    <a href="https://x.com/"><img src="../imagens/RD3 twitter.png" class="imginstagram"></a>
+    <a href="https://web.whatsapp.com/"><img src="../imagens/RD4 whatsapp.png" class="imginstagram"></a>
+    <hr>
+
+    <p class="formas-pagamento"> FORMAS DE PAGAMENTO <br>
+        <img src="../imagens/img19.png">
+        <img src="../imagens/img20.png">
+        <img src="../imagens/img21.png">
+        <img src="../imagens/img22.png">
+    </p>
+
+
+    <footer>
+        <br>
+        <p class="texto-final">© 2025 AldeiaGeek • Todos os direitos reservados • <a href="#">Email:
+                exemplo@projeto.com</a> <br>
+
+
+            <!--texto final -->
+
+
+        <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+    </footer>
+
+
+
+</body>
+
+=======
+=======
+>>>>>>> Stashed changes
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldeia Geek - Produtos</title>
+    <link rel="stylesheet" href="../CSS/indexCss.css">
+    <link rel="stylesheet" href="../CSS/acessibilidade.css" />
+</head>
+
+<body>
+
+    <!-- Botão Flutuante de Acessibilidade -->
+    <div id="acessibilidade-widget">
+        <button id="acessibilidade-btn">A</button>
+
+        <div id="acessibilidade-menu">
+            <button id="btnAumentar">A+</button>
+            <button id="btnDiminuir">A-</button>
+            <button id="btnResetar">Resetar</button>
+        </div>
+    </div>
+
+    <header id="top-nav">
+        <div id="AldeiaGeek">
+            <a href="../index.html">
+                <img src="../imagens/logo site.png" alt="Logo Aldeia Geek">
+                <span>AldeiaGeek</span>
+            </a>
+        </div>
+
+        <nav class="holographic-container">
+            <div class="holographic-card"><a href="../html/novidades.html">Novidades</a></div>
+            <div class="holographic-card"><a href="../html/vestuario.html">Vestuário</a></div>
+            <div class="holographic-card"><a href="../html/colecionaveis.html">Colecionáveis</a></div>
+            <div class="holographic-card"><a href="../html/Acessorios.html">Acessórios</a></div>
+        </nav>
+
+        <form class="Barra-meio">
+            <input type="search" class="campo-pesquisa" placeholder="Pesquisar na Aldeia">
+            <button type="submit" class="botao-pesquisa">🔍</button>
+        </form>
+
+        <div id="nav-right">
+            <button id="darkModeBtn">◑</button>
+
+
+
+
+            <button id="login-btn">Login ou Registrar-se</button>
+            <ul id="logout-menu">
+                <li id="logout-option">Sair</li>
+            </ul>
+        </div>
+        <button id="menu-hamburger">☰</button>
+
+    </header>
+
+    <div id="popup-overlay">
+        <div id="popup-box">
+            <span id="popup-close">X</span>
+            <h3>Bem-vindo!</h3>
+            <button onclick="mostrarLogin()">Login</button>
+            <button onclick="registrar()">Registrar-se</button>
+
+            <div id="login-form">
+                <h4>Entrar</h4>
+                <form id="formLogin">
+                    <label for="usuario">Login:</label>
+                    <input type="text" id="usuario" name="usuario" required>
+
+                    <label for="senhaLogin">Senha:</label>
+                    <input type="password" id="senhaLogin" name="senhaLogin" required>
+
+                    <div id="erroLogin"></div>
+
+                    <button type="submit">Entrar</button>
+                    <button type="reset">Limpar</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+
+    <script src="../JS/indexJs.js"></script>
+    <script src="../JS/login.js"></script>
+    <script src="../JS/botaohamburger.js"></script>
+    <script src="../JS/acessibilidadefonte.js"></script>
+
+    <main class="produto-container">
+        <!-- Galeria de ../imagens -->
+        <section class="galeria">
+            <img id="img-principal" src="../imagens/cncdeath1.jpg" alt="Produto Principal">
+
+            <div class="miniaturas">
+                <img src="../imagens/cncdeath1.jpg" alt="Miniatura 1" onclick="trocarImagem(this)">
+                <img src="../imagens/cncdeath2.jpg" alt="Miniatura 2" onclick="trocarImagem(this)">
+            </div>
+        </section>
+
+        <!-- Detalhes do produto -->
+        <section class="detalhes">
+            <h1>Caneca Death Note</h1>
+            <p class="preco">R$ 49,99</p>
+            <p class="descricao">
+                Caneca inspirada em Death Note, trazendo uma estampa marcante que representa o universo sombrio do
+                anime. Feita para fãs que querem estilo até na hora do café. </p>
+            <a href="../Html/erro.html" button class="btn-comprar">🛒 Comprar agora</a>
+            </div>
+        </section>
+    </main>
+
+
+
+    <h1> Características </h1> <br>
+    <h5> ✅ Material: cerâmica premium
+        <br>✅ Estampa de alta definição com cores vivas
+        <br> ✅Resistente a calor, micro-ondas e lava-louças
+        <br> ✅Capacidade: 325ml
+        <br> ✅Perfeita para fãs
+    </h5> <br>
+    </H2> <br>
+
+    <H3>
+        Avaliações dos clientes: ⭐⭐⭐⭐ (4.8/5) com base em 250 avaliações
+    </H3> <br>
+
+
+
+
+
+    <div id="popup-overlay">
+        <div id="popup-box">
+            <span id="popup-close">X</span>
+            <h3>Bem-vindo!</h3>
+            <button onclick="mostrarLogin()">Login</button>
+            <button onclick="registrar()">Registrar-se</button>
+
+            <div id="login-form">
+                <h4>Entrar</h4>
+                <form id="formLogin">
+                    <label for="usuario">Login:</label>
+                    <input type="text" id="usuario" name="usuario" required>
+
+                    <label for="senhaLogin">Senha:</label>
+                    <input type="password" id="senhaLogin" name="senhaLogin" required>
+
+                    <div id="erroLogin"></div>
+
+                    <button type="submit">Entrar</button>
+                    <button type="reset">Limpar</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/indexJs.js"></script>
+    <script src="JS/login.js"></script>
+
+
+
+    <!--RODAPÉ DA PAGINA-->
+
+    <section class="Assinar ">
+        <h4> Assinar Novidades </h4>
+        <input class="barra-rodape" type="text" placeholder="Digite seu Email">
+        <button class="click-aqui"> ASSINAR </button>
+    </section>
+
+    <h1 class="rodape-titulo">Aldeia Geek</h1>
+
+
+    <a href="https://www.facebook.com/"> <img src="../imagens/RD1 png facebook.png" class="imginstagram"></a>
+    <a href="https://www.instagram.com/"><img src="../imagens/RD2 insta.png" class="imginstagram"></a>
+    <a href="https://x.com/"><img src="../imagens/RD3 twitter.png" class="imginstagram"></a>
+    <a href="https://web.whatsapp.com/"><img src="../imagens/RD4 whatsapp.png" class="imginstagram"></a>
+    <hr>
+
+    <p class="formas-pagamento"> FORMAS DE PAGAMENTO <br>
+        <img src="../imagens/img19.png">
+        <img src="../imagens/img20.png">
+        <img src="../imagens/img21.png">
+        <img src="../imagens/img22.png">
+    </p>
+
+
+    <footer>
+        <br>
+        <p class="texto-final">© 2025 AldeiaGeek • Todos os direitos reservados • <a href="#">Email:
+                exemplo@projeto.com</a> <br>
+
+
+            <!--texto final -->
+
+
+        <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+    </footer>
+
+
+
+</body>
+
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+</html>
